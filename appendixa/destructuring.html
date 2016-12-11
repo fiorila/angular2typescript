@@ -60,9 +60,10 @@
 
     function processFirstTwoCustomers([firstCust, secondCust, ...otherCust]){
 
-    console.log(`The first customer is ${firstCust} and the second one is ${secondCust}`);
-    console.log(`Other customers are ${otherCust}`);
-
+        console.log(`The first customer is ${firstCust} and the second one is ${secondCust}`);
+        console.log(`Other customers are ${otherCust}`);
+        console.log("Other customers are really these: " + otherCust);
+        console.log(otherCust);
     }
 
     processFirstTwoCustomers(customers);
